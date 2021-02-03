@@ -1,0 +1,24 @@
+.NavbarItems {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #f6e58d;
+}
+.navbar-logo {
+  color: #130f40 !important;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.nav-links {
+  color: #130f40 !important;
+  text-decoration: none !important;
+  padding: 0.5rem 1rem;
+}
+.nav-links:hover {
+  color: #130f40 !important;
+  border-radius: 4px;
+  transition: all 0.7s ease-out;
+}
